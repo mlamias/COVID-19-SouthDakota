@@ -46,18 +46,8 @@ Note that the COVID_19_SOUTH_DAKOTA_COUNTIES_DATA data files may be joined to th
 The CSV files are comma separated values datasets.  They can be opened in any text editor or in MS Excel.  The RDS files such as COVID_19_SOUTH_DAKOTA_DATA.Rds can be read into R using synatx such as:
 > readRDS(file = "COVID_19_SOUTH_DAKOTA_DATA.Rds")
 
-Using the freely available R package and after installing and loading the package "tidyverse", users can join the COVID_19_SOUTH_DAKOTA_COUNTIES_DATA file to the COVID_19_SOUTH_DAKOTA_DATA base
-file to append the appropriate dates to the county counts by issuing a statement such as this:
-> inner_join(COVID_19_SD_DATA, COVID_19_SD_COUNTIES_DATA)
-
-This appends each county's counts with the given dates the counts originate from.  To obtain counts on a specific date, say 3/18/2020 at 5PM one could issue:
-> inner_join(COVID_19_SD_DATA, COVID_19_SD_COUNTIES_DATA) %>% filter(report_datetime=="3/18/2020 17:00")
-
-To obtain the counts for a specific county, say Pennington, on this date, one could issue:
-> inner_join(COVID_19_SD_DATA, COVID_19_SD_COUNTIES_DATA) %>% filter(report_datetime=="3/18/2020 17:00", county=="Pennington")
-
-
 Assuming the COVID_19_SOUTH_DAKOTA_DATA.Rds is in the R working directory.  Otherwise, you can specify the full path to the file in the file argument of the readRDS function.
+
 
 ### Dataset Variables
 #### COVID_19_SD_COUNTIES_DATA

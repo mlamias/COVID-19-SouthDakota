@@ -68,7 +68,7 @@ COVID_19_SD_COUNTIES_DATA <- readRDS(file = paste0(DATA_DIRECTORY, "/COVID_19_SD
 #new_instance_id <- get0("COVID_19_SD_DATA", max(COVID_19_SD_DATA$Instance_ID), ifnotfound = 0) + 1
 new_instance_id <- max(COVID_19_SD_DATA$instance_id)+1
 
-
+COVID_19_SD_DATA$instance_id <- as.integer(COVID_19_SD_DATA$instance_id)
 
 #Connect to SDDPH website and read web page
 URL <- "https://doh.sd.gov/news/coronavirus.aspx"
@@ -142,41 +142,28 @@ paste("gender", gender_name_vec[,1])->gender_name_vec[,1]
 #total_recovered <- cases_table[cases_table$Description=="Recovered",]
 
 #Create update record from newly imported statistics referencing the instance ID obtained above
-SD_data<-data.frame(cbind(instance_id=new_instance_id, report_datetime=report_datetime_str, t(testing_table), t(cases_table), t(age_name_vec), t(gender_name_vec)))
+SD_data<-cbind(instance_id=new_instance_id, report_datetime=report_datetime_str, t(testing_table), t(cases_table), t(age_name_vec), t(gender_name_vec))
+SD_data<-data.frame(t(SD_data[2,]), stringsAsFactors = FALSE)
 names(SD_data)<-names(COVID_19_SD_DATA)
+row.names(SD_data) <- NULL
 
-#SD_data[1,] %>% str_replace_all(" ", "_") %>% tolower() ->SD_data_varnames
-
-
-
-
-#names(counties) %>% str_replace_all(" ", "_") %>% str_replace_all("#", "No") %>% tolower() ->names(counties)
-#SD_data_varnames[1:2]<-c("instance_id", "report_datetime")
-
-
-
-
-COVID_19_SD_DATA
+SD_data %>% mutate_at(-2, as.integer) ->SD_data
+str(SD_data)
 
 
 #Convert factors to strings
-
-SD_data[]<-lapply(SD_data, as.character)
+#SD_data[]<-lapply(SD_data, as.character)
 row.names(SD_data) <- NULL
 
 counties<-data.frame(instance_id=new_instance_id, counties)
-
+names(counties)<-names(COVID_19_SD_COUNTIES_DATA)
 
 
 COVID_19_SD_DATA_CURRENT <-
   rbind(if(exists("COVID_19_SD_DATA")) COVID_19_SD_DATA, SD_data)
-str(COVID_19_SD_DATA)
-str(SD_data)
-    
+
 COVID_19_SD_COUNTIES_DATA_CURRENT <-
   rbind(if(exists("COVID_19_SD_COUNTIES_DATA")) COVID_19_SD_COUNTIES_DATA, counties)
-
-
 
 #Save updated data.
 saveRDS(
@@ -196,7 +183,7 @@ write.csv(
   row.names = FALSE
 )
 write.csv(
-  COVID_19_SD_COUNTIES_DATA_CURRENT,
+  COVID_19_SD_COUNTIES_DATA,
   file = paste0(DATA_DIRECTORY, "/COVID_19_SD_COUNTIES_DATA.csv"),
   row.names = FALSE
 )
