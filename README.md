@@ -29,8 +29,8 @@ to extract the relevant text containing the statistical figures.
 
 ### Inputs/Global Variables Set by User:
 * **DATA_DIRECTORY**:  A valid R pathname to the directory where this program and the existing data reside
-* **COVID_19_SOUTH_DAKOTA_DATA.Rds**:  The R RDS file that contains the most recent GA COVID-19 data
-* **COVID_19_SOUTH_DAKOTA_COUNTIES_DATA**:  The R RDS file that contains the most recent GA COVID-19 data by county
+* **COVID_19_SOUTH_DAKOTA_DATA.Rds**:  The R RDS file that contains the most recent South Dakota COVID-19 data
+* **COVID_19_SOUTH_DAKOTA_COUNTIES_DATA**:  The R RDS file that contains the most recent South Dakota COVID-19 data by county
 * **URL**:  The Uniform Resource Locator to the South Dakota Department of Public Health's COVID-19 daily report page
 
 ### Outputs:
