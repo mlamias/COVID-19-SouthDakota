@@ -1,13 +1,7 @@
 ###################################################################################################################################
 #Program Copyright, 2020, Mark J. Lamias, The Stochastic Group, Inc.
 #Version 1.0 - Initial Update
-#Version 2.0 - Modified code to account for site changes implemented by GDPH on 3/28/2020 (evening) which 
-#              included new table of death by age, county, gender, and presence of underlying medical condition.
-#Version 2.1 - Made efficiency improvements and improved code to accomodate minor changes to GDPH daily report
-#Version 2.2 - Added code to save copy of GDPH website to local drive.
-#Version 2.3 - Changed 1st comparison operator in get_demographic_stats to %in% from == to account for typos on
-#              GDPH's website.
-#Last Updated:  03/31/2020 04:08 AM EDT
+#Last Updated:  04/06/2020 02:28 AM EDT
 #
 #Terms of Service
 #THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
@@ -32,7 +26,7 @@
 #
 #Inputs/Global Variables Set by User:
 #DATA_DIRECTORY:  A valid R pathname to the directory where this program and the existing data reside
-#COVID_19_SD_DATA.Rds:  The R RDS file that contains the most recent GA COVID-19 data
+#COVID_19_SD_DATA.Rds:  The R RDS file that contains the most recent SD COVID-19 data
 #COVID_19_SD_COUNTIES_DATA:  The R RDS file that contains the most recent GA COVID-19 data by county
 #URL:  The Uniform Resource Locator to the SD Department of Public Health's COVID-19 daily report page
 #
@@ -56,19 +50,13 @@ library(git2r)
 #Set data directory
 DATA_DIRECTORY <- "D:/Code/Github/COVID-19-SouthDakota"
 
-#COVID_19_SD_DATA <- read.csv(file = paste0(DATA_DIRECTORY, "/COVID_19_SD_DATA.csv"), stringsAsFactors = FALSE)
-#COVID_19_SD_COUNTIES_DATA <- read.csv(file = paste0(DATA_DIRECTORY, "/COVID_19_SD_COUNTIES_DATA.csv"), stringsAsFactors = FALSE)
-
 #Import historical GDPH COVID-19 Data and Import historical GDPH COVID-19 Data for counties
 COVID_19_SD_DATA <- readRDS(file = paste0(DATA_DIRECTORY, "/COVID_19_SD_DATA.Rds"))
 COVID_19_SD_COUNTIES_DATA <- readRDS(file = paste0(DATA_DIRECTORY, "/COVID_19_SD_COUNTIES_DATA.Rds"))
 
 
 #Create a report instance ID to differentiate reports from one another
-#new_instance_id <- get0("COVID_19_SD_DATA", max(COVID_19_SD_DATA$Instance_ID), ifnotfound = 0) + 1
 new_instance_id <- max(COVID_19_SD_DATA$instance_id)+1
-
-COVID_19_SD_DATA$instance_id <- as.integer(COVID_19_SD_DATA$instance_id)
 
 #Connect to SDDPH website and read web page
 URL <- "https://doh.sd.gov/news/coronavirus.aspx"
@@ -94,7 +82,7 @@ report_datetime_str <- paste(report_date, report_time)
 report_datetime <-
   strptime(report_datetime_str, "%Y-%m-%d %I:%M %p")
 
-#Read in first and second table which define test/case counts by lab type
+#Get Testing Stats
 testing_table <-
   html %>%  html_nodes(xpath = '//*[@id="content_block"]/div[2]/div[1]/table')  %>%  
   simplify() %>%  
@@ -104,6 +92,7 @@ testing_table <-
 testing_table[,1] %>%   str_replace_all("\\*", "")->testing_table[,1]
 paste0("test_result_", testing_table[,1])->testing_table[,1]
 
+#Get Case Stats
 cases_table <-
   html %>%  html_nodes(xpath = '//*[@id="content_block"]/div[2]/div[2]/table') %>%  
   simplify() %>%  
@@ -114,12 +103,14 @@ cases_table[,1] %>%   str_replace_all("\\*", "")->cases_table[,1]
 names(cases_table)<-c("Description", "Count")
 paste0("cases_", cases_table[,1])->cases_table[,1]
 
+#Get County Data
 counties <-
   html %>%  html_nodes(xpath = '//*[@id="content_block"]/div[3]/div[1]/table') %>%  
   simplify() %>%  
   pluck(1) %>% 
   html_table(header=TRUE)
 
+#Get Age Stats
 age_name_vec <-
   html %>%  html_nodes(xpath = '//*[@id="content_block"]/div[3]/div[2]/table[1]') %>%  
   simplify() %>%  
@@ -127,7 +118,7 @@ age_name_vec <-
   html_table(header=TRUE)
 paste("age", age_name_vec[,1])->age_name_vec[,1]
 
-
+#Get Gender Stats
 gender_name_vec <-
   html %>%  html_nodes(xpath = '//*[@id="content_block"]/div[3]/div[2]/table[2]') %>%  
   simplify() %>%  
@@ -135,30 +126,19 @@ gender_name_vec <-
   html_table(header=TRUE)
 paste("gender", gender_name_vec[,1])->gender_name_vec[,1]
 
-#Store total cases and total deaths
-#total_cases <- cases_table[cases_table$Description=="Number of Cases",]
-#total_hospitalized <- cases_table[cases_table$Description=="Ever Hospitalized",]
-#total_deaths <- cases_table[cases_table$Description=="Deaths",]
-#total_recovered <- cases_table[cases_table$Description=="Recovered",]
-
 #Create update record from newly imported statistics referencing the instance ID obtained above
 SD_data<-cbind(instance_id=new_instance_id, report_datetime=report_datetime_str, t(testing_table), t(cases_table), t(age_name_vec), t(gender_name_vec))
 SD_data<-data.frame(t(SD_data[2,]), stringsAsFactors = FALSE)
 names(SD_data)<-names(COVID_19_SD_DATA)
 row.names(SD_data) <- NULL
-
 SD_data %>% mutate_at(-2, as.integer) ->SD_data
 str(SD_data)
-
-
-#Convert factors to strings
-#SD_data[]<-lapply(SD_data, as.character)
 row.names(SD_data) <- NULL
-
 counties<-data.frame(instance_id=new_instance_id, counties)
 names(counties)<-names(COVID_19_SD_COUNTIES_DATA)
 
 
+#Updata RDS Files previosuly saved
 COVID_19_SD_DATA_CURRENT <-
   rbind(if(exists("COVID_19_SD_DATA")) COVID_19_SD_DATA, SD_data)
 
