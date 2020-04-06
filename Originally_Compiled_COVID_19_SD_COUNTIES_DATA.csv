@@ -1,0 +1,332 @@
+instance_id,county,total_positive_cases,no_recovered
+6,Beadle,1,NA
+6,Bon Homme,1,NA
+6,Charles Mix,1,NA
+6,Davison,1,NA
+6,McCook,1,NA
+6,Minnehaha,3,NA
+6,Pennington,1,NA
+7,Beadle,1,NA
+7,Bon Homme,1,NA
+7,Charles Mix,1,NA
+7,Davison,1,NA
+7,McCook,1,NA
+7,Minnehaha,3,NA
+7,Pennington,1,NA
+8,Beadle,1,NA
+8,Bon Homme,1,NA
+8,Charles Mix,1,NA
+8,Davison,1,NA
+8,McCook,1,NA
+8,Minnehaha,3,NA
+8,Pennington,1,NA
+9,Beadle,1,NA
+9,Bon Homme,1,NA
+9,Charles Mix,1,NA
+9,Davison,1,NA
+9,McCook,1,NA
+9,Minnehaha,4,NA
+9,Pennington,1,NA
+10,Beadle,1,NA
+10,Bon Homme,1,NA
+10,Charles Mix,1,NA
+10,Davison,1,NA
+10,McCook,1,NA
+10,Minnehaha,5,NA
+10,Pennington,1,NA
+11,Beadle,1,NA
+11,Bon Homme,1,NA
+11,Charles Mix,1,NA
+11,Davison,1,NA
+11,McCook,1,NA
+11,Minnehaha,5,NA
+11,Pennington,1,NA
+12,Beadle,4,NA
+12,Bon Homme,1,NA
+12,Charles Mix,1,NA
+12,Davison,1,NA
+12,McCook,1,NA
+12,Minnehaha,5,NA
+12,Pennington,1,NA
+13,Beadle,4,NA
+13,Bon Homme,1,NA
+13,Charles Mix,1,NA
+13,Davison,1,NA
+13,McCook,1,NA
+13,Minnehaha,5,NA
+13,Pennington,1,NA
+14,Beadle,4,NA
+14,Bon Homme,1,NA
+14,Charles Mix,1,NA
+14,Davison,1,NA
+14,McCook,1,NA
+14,Minnehaha,5,NA
+14,Pennington,1,NA
+15,Beadle,10,NA
+15,Bon Homme,1,NA
+15,Brown,1,NA
+15,Charles Mix,1,NA
+15,Davison,1,NA
+15,McCook,1,NA
+15,Minnehaha,5,NA
+15,Pennington,1,NA
+16,Beadle,12,NA
+16,Bon Homme,1,NA
+16,Brown,1,NA
+16,Charles Mix,1,NA
+16,Codington,1,NA
+16,Davison,2,NA
+16,Hughes,1,NA
+16,Lyman,1,NA
+16,McCook,2,NA
+16,Minnehaha,5,NA
+16,Pennington,1,NA
+17,Beadle,13,NA
+17,Bon Homme,1,NA
+17,Brown,2,NA
+17,Brookings,1,NA
+17,Charles Mix,1,NA
+17,Codington,1,NA
+17,Davison,2,NA
+17,Hughes,1,NA
+17,Lincoln,1,NA
+17,Lyman,1,NA
+17,McCook,2,NA
+17,Meade,1,NA
+17,Minnehaha,13,NA
+17,Pennington,1,NA
+18,Beadle,14,NA
+18,Bon Homme,1,NA
+18,Brown,2,NA
+18,Brookings,1,NA
+18,Charles Mix,1,NA
+18,Codington,1,NA
+18,Davison,2,NA
+18,Hughes,1,NA
+18,Lincoln,2,NA
+18,Lyman,1,NA
+18,McCook,2,NA
+18,Meade,1,NA
+18,Minnehaha,16,NA
+18,Pennington,1,NA
+19,Aurora,1,NA
+19,Beadle,16,NA
+19,Bon Homme,1,NA
+19,Brown,2,NA
+19,Brookings,1,NA
+19,Charles Mix,1,NA
+19,Codington,1,NA
+19,Davison,2,NA
+19,Faulk,1,NA
+19,Hughes,1,NA
+19,Lawrence,2,NA
+19,Lincoln,2,NA
+19,Lyman,1,NA
+19,McCook,2,NA
+19,Meade,1,NA
+19,Minnehaha,18,NA
+19,Pennington,3,NA
+19,Todd,1,NA
+19,Union,1,NA
+20,Aurora,1,NA
+20,Beadle,16,NA
+20,Bon Homme,1,NA
+20,Brookings,1,NA
+20,Brown,2,NA
+20,Charles Mix,1,NA
+20,Codington,2,NA
+20,Davison,2,NA
+20,Deuel,1,NA
+20,Faulk,1,NA
+20,Hamlin,1,NA
+20,Hughes,1,NA
+20,Hutchinson,2,NA
+20,Lawrence,2,NA
+20,Lincoln,3,NA
+20,Lyman,1,NA
+20,McCook,2,NA
+20,Meade,1,NA
+20,Minnehaha,21,NA
+20,Pennington,3,NA
+20,Todd,1,NA
+20,Union,1,NA
+20,Yankton,1,NA
+21,Aurora,1,NA
+21,Beadle,20,NA
+21,Bon Homme,1,NA
+21,Brookings,1,NA
+21,Brown,2,NA
+21,Charles Mix,1,NA
+21,Clark,1,NA
+21,Clay,2,NA
+21,Codington,4,NA
+21,Davison,2,NA
+21,Deuel,1,NA
+21,Fall River,1,NA
+21,Faulk,1,NA
+21,Hamlin,1,NA
+21,Hughes,1,NA
+21,Hutchinson,2,NA
+21,Lawrence,3,NA
+21,Lincoln,4,NA
+21,Lyman,1,NA
+21,McCook,2,NA
+21,Meade,1,NA
+21,Minnehaha,25,NA
+21,Pennington,4,NA
+21,Roberts,1,NA
+21,Todd,1,NA
+21,Turner,1,NA
+21,Union,1,NA
+21,Yankton,4,NA
+22,Aurora,1,NA
+22,Beadle,20,NA
+22,Bon Homme,1,NA
+22,Brookings,1,NA
+22,Brown,3,NA
+22,Butte,1,NA
+22,Charles Mix,1,NA
+22,Clark,1,NA
+22,Clay,3,NA
+22,Codington,5,NA
+22,Davison,2,NA
+22,Deuel,1,NA
+22,Fall River,1,NA
+22,Faulk,1,NA
+22,Hamlin,1,NA
+22,Hughes,1,NA
+22,Hutchinson,2,NA
+22,Lawrence,5,NA
+22,Lincoln,4,NA
+22,Lyman,1,NA
+22,Marshall,1,NA
+22,McCook,2,NA
+22,Meade,1,NA
+22,Minnehaha,28,NA
+22,Pennington,5,NA
+22,Roberts,1,NA
+22,Todd,1,NA
+22,Turner,1,NA
+22,Union,1,NA
+22,Yankton,4,NA
+23,Aurora,1,NA
+23,Beadle,20,NA
+23,Bon Homme,1,NA
+23,Brookings,1,NA
+23,Brown,3,NA
+23,Charles Mix,1,NA
+23,Clark,1,NA
+23,Clay,3,NA
+23,Codington,5,NA
+23,Davison,2,NA
+23,Deuel,1,NA
+23,Fall River,1,NA
+23,Faulk,1,NA
+23,Hamlin,1,NA
+23,Hughes,1,NA
+23,Hutchinson,2,NA
+23,Kingsbury,1,NA
+23,Lawrence,6,NA
+23,Lincoln,5,NA
+23,Lyman,1,NA
+23,Marshall,1,NA
+23,McCook,2,NA
+23,Meade,1,NA
+23,Minnehaha,31,NA
+23,Pennington,5,NA
+23,Roberts,1,NA
+23,Todd,1,NA
+23,Turner,1,NA
+23,Union,1,NA
+23,Yankton,6,NA
+24,Aurora,1,1
+24,Beadle,21,12
+24,Bon Homme,1,1
+24,Brookings,2,2
+24,Brown,4,2
+24,Charles Mix,1,1
+24,Clark,1,1
+24,Clay,3,1
+24,Codington,5,2
+24,Davison,2,2
+24,Deuel,1,0
+24,Fall River,1,1
+24,Faulk,1,1
+24,Hamlin,1,0
+24,Hughes,2,1
+24,Hutchinson,2,2
+24,Lawrence,6,2
+24,Lincoln,11,1
+24,Lyman,1,1
+24,Marshall,1,1
+24,McCook,2,1
+24,Meade,1,1
+24,Minnehaha,40,11
+24,Pennington,5,1
+24,Roberts,2,0
+24,Todd,1,0
+24,Turner,1,0
+24,Union,1,1
+24,Yankton,8,1
+25,Aurora,1,1
+25,Beadle,21,17
+25,Bon Homme,1,1
+25,Brookings,2,2
+25,Brown,7,4
+25,Charles Mix,1,1
+25,Clark,1,1
+25,Clay,3,2
+25,Codington,8,3
+25,Davison,3,2
+25,Deuel,1,0
+25,Fall River,1,1
+25,Faulk,1,1
+25,Hamlin,1,0
+25,Hughes,3,2
+25,Hutchinson,2,2
+25,Lake,1,0
+25,Lawrence,9,3
+25,Lincoln,19,3
+25,Lyman,1,1
+25,Marshall,1,1
+25,McCook,2,1
+25,Meade,1,1
+25,Minnehaha,68,15
+25,Pennington,6,1
+25,Roberts,3,0
+25,Spink,1,0
+25,Todd,1,0
+25,Turner,3,0
+25,Union,3,1
+25,Yankton,11,2
+26,Aurora,1,1
+26,Beadle,21,18
+26,Bon Homme,1,1
+26,Brookings,3,2
+26,Brown,9,5
+26,Charles Mix,2,1
+26,Clark,1,1
+26,Clay,3,2
+26,Codington,9,3
+26,Davison,3,2
+26,Deuel,1,0
+26,Fall River,1,1
+26,Faulk,1,1
+26,Hamlin,1,0
+26,Hughes,3,2
+26,Hutchinson,2,2
+26,Lake,1,0
+26,Lawrence,9,4
+26,Lincoln,21,4
+26,Lyman,1,1
+26,Marshall,1,1
+26,McCook,2,1
+26,Meade,1,1
+26,Minnehaha,81,15
+26,Pennington,6,1
+26,Roberts,4,0
+26,Spink,2,0
+26,Todd,1,0
+26,Turner,3,1
+26,Union,3,1
+26,Yankton,14,4
