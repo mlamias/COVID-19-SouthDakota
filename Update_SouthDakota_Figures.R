@@ -60,8 +60,11 @@ new_instance_id <- max(COVID_19_SD_DATA$instance_id)+1
 
 #Connect to SDDPH website and read web page
 URL <- "https://doh.sd.gov/news/coronavirus.aspx"
+filename <- "d:\\covid\\SD-Coronavirus updates and information2020-04-06 12.html"
 session <- html_session(URL)
-html <- read_html(session)
+session <- html_session(filename)
+#html <- read_html(session)
+html <- read_html(filename)
 
 #Download & Save A Copy of GDPH Website
 save_url_name<-paste0("D:\\covid\\covid_SouthDakota_", str_replace_all(as.character(Sys.time()), ":", "_"), ".html")
@@ -141,9 +144,17 @@ names(counties)<-names(COVID_19_SD_COUNTIES_DATA)
 #Updata RDS Files previosuly saved
 COVID_19_SD_DATA_CURRENT <-
   rbind(if(exists("COVID_19_SD_DATA")) COVID_19_SD_DATA, SD_data)
+tail(COVID_19_SD_DATA_CURRENT)
+library(lubridate)
+#COVID_19_SD_DATA$report_datetime
+#COVID_19_SD_DATA$report_datetime<-as.POSIXct(COVID_19_SD_DATA$report_datetime,format="%m/%e/%Y %H:%M")
+
+#COVID_19_SD_DATA_CURRENT[27,]$report_datetime
+
 
 COVID_19_SD_COUNTIES_DATA_CURRENT <-
   rbind(if(exists("COVID_19_SD_COUNTIES_DATA")) COVID_19_SD_COUNTIES_DATA, counties)
+
 
 #Save updated data.
 saveRDS(
@@ -162,8 +173,9 @@ write.csv(
   file = paste0(DATA_DIRECTORY, "/COVID_19_SD_DATA.csv"),
   row.names = FALSE
 )
+
 write.csv(
-  COVID_19_SD_COUNTIES_DATA,
+  COVID_19_SD_COUNTIES_DATA_CURRENT,
   file = paste0(DATA_DIRECTORY, "/COVID_19_SD_COUNTIES_DATA.csv"),
   row.names = FALSE
 )
