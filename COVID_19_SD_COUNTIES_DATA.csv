@@ -1,760 +1,827 @@
-"instance_id","county","total_positive_cases","no_recovered"
-6,"Beadle",1,NA
-6,"Bon Homme",1,NA
-6,"Charles Mix",1,NA
-6,"Davison",1,NA
-6,"McCook",1,NA
-6,"Minnehaha",3,NA
-6,"Pennington",1,NA
-7,"Beadle",1,NA
-7,"Bon Homme",1,NA
-7,"Charles Mix",1,NA
-7,"Davison",1,NA
-7,"McCook",1,NA
-7,"Minnehaha",3,NA
-7,"Pennington",1,NA
-8,"Beadle",1,NA
-8,"Bon Homme",1,NA
-8,"Charles Mix",1,NA
-8,"Davison",1,NA
-8,"McCook",1,NA
-8,"Minnehaha",3,NA
-8,"Pennington",1,NA
-9,"Beadle",1,NA
-9,"Bon Homme",1,NA
-9,"Charles Mix",1,NA
-9,"Davison",1,NA
-9,"McCook",1,NA
-9,"Minnehaha",4,NA
-9,"Pennington",1,NA
-10,"Beadle",1,NA
-10,"Bon Homme",1,NA
-10,"Charles Mix",1,NA
-10,"Davison",1,NA
-10,"McCook",1,NA
-10,"Minnehaha",5,NA
-10,"Pennington",1,NA
-11,"Beadle",1,NA
-11,"Bon Homme",1,NA
-11,"Charles Mix",1,NA
-11,"Davison",1,NA
-11,"McCook",1,NA
-11,"Minnehaha",5,NA
-11,"Pennington",1,NA
-12,"Beadle",4,NA
-12,"Bon Homme",1,NA
-12,"Charles Mix",1,NA
-12,"Davison",1,NA
-12,"McCook",1,NA
-12,"Minnehaha",5,NA
-12,"Pennington",1,NA
-13,"Beadle",4,NA
-13,"Bon Homme",1,NA
-13,"Charles Mix",1,NA
-13,"Davison",1,NA
-13,"McCook",1,NA
-13,"Minnehaha",5,NA
-13,"Pennington",1,NA
-14,"Beadle",4,NA
-14,"Bon Homme",1,NA
-14,"Charles Mix",1,NA
-14,"Davison",1,NA
-14,"McCook",1,NA
-14,"Minnehaha",5,NA
-14,"Pennington",1,NA
-15,"Beadle",10,NA
-15,"Bon Homme",1,NA
-15,"Brown",1,NA
-15,"Charles Mix",1,NA
-15,"Davison",1,NA
-15,"McCook",1,NA
-15,"Minnehaha",5,NA
-15,"Pennington",1,NA
-16,"Beadle",12,NA
-16,"Bon Homme",1,NA
-16,"Brown",1,NA
-16,"Charles Mix",1,NA
-16,"Codington",1,NA
-16,"Davison",2,NA
-16,"Hughes",1,NA
-16,"Lyman",1,NA
-16,"McCook",2,NA
-16,"Minnehaha",5,NA
-16,"Pennington",1,NA
-17,"Beadle",13,NA
-17,"Bon Homme",1,NA
-17,"Brown",2,NA
-17,"Brookings",1,NA
-17,"Charles Mix",1,NA
-17,"Codington",1,NA
-17,"Davison",2,NA
-17,"Hughes",1,NA
-17,"Lincoln",1,NA
-17,"Lyman",1,NA
-17,"McCook",2,NA
-17,"Meade",1,NA
-17,"Minnehaha",13,NA
-17,"Pennington",1,NA
-18,"Beadle",14,NA
-18,"Bon Homme",1,NA
-18,"Brown",2,NA
-18,"Brookings",1,NA
-18,"Charles Mix",1,NA
-18,"Codington",1,NA
-18,"Davison",2,NA
-18,"Hughes",1,NA
-18,"Lincoln",2,NA
-18,"Lyman",1,NA
-18,"McCook",2,NA
-18,"Meade",1,NA
-18,"Minnehaha",16,NA
-18,"Pennington",1,NA
-19,"Aurora",1,NA
-19,"Beadle",16,NA
-19,"Bon Homme",1,NA
-19,"Brown",2,NA
-19,"Brookings",1,NA
-19,"Charles Mix",1,NA
-19,"Codington",1,NA
-19,"Davison",2,NA
-19,"Faulk",1,NA
-19,"Hughes",1,NA
-19,"Lawrence",2,NA
-19,"Lincoln",2,NA
-19,"Lyman",1,NA
-19,"McCook",2,NA
-19,"Meade",1,NA
-19,"Minnehaha",18,NA
-19,"Pennington",3,NA
-19,"Todd",1,NA
-19,"Union",1,NA
-20,"Aurora",1,NA
-20,"Beadle",16,NA
-20,"Bon Homme",1,NA
-20,"Brookings",1,NA
-20,"Brown",2,NA
-20,"Charles Mix",1,NA
-20,"Codington",2,NA
-20,"Davison",2,NA
-20,"Deuel",1,NA
-20,"Faulk",1,NA
-20,"Hamlin",1,NA
-20,"Hughes",1,NA
-20,"Hutchinson",2,NA
-20,"Lawrence",2,NA
-20,"Lincoln",3,NA
-20,"Lyman",1,NA
-20,"McCook",2,NA
-20,"Meade",1,NA
-20,"Minnehaha",21,NA
-20,"Pennington",3,NA
-20,"Todd",1,NA
-20,"Union",1,NA
-20,"Yankton",1,NA
-21,"Aurora",1,NA
-21,"Beadle",20,NA
-21,"Bon Homme",1,NA
-21,"Brookings",1,NA
-21,"Brown",2,NA
-21,"Charles Mix",1,NA
-21,"Clark",1,NA
-21,"Clay",2,NA
-21,"Codington",4,NA
-21,"Davison",2,NA
-21,"Deuel",1,NA
-21,"Fall River",1,NA
-21,"Faulk",1,NA
-21,"Hamlin",1,NA
-21,"Hughes",1,NA
-21,"Hutchinson",2,NA
-21,"Lawrence",3,NA
-21,"Lincoln",4,NA
-21,"Lyman",1,NA
-21,"McCook",2,NA
-21,"Meade",1,NA
-21,"Minnehaha",25,NA
-21,"Pennington",4,NA
-21,"Roberts",1,NA
-21,"Todd",1,NA
-21,"Turner",1,NA
-21,"Union",1,NA
-21,"Yankton",4,NA
-22,"Aurora",1,NA
-22,"Beadle",20,NA
-22,"Bon Homme",1,NA
-22,"Brookings",1,NA
-22,"Brown",3,NA
-22,"Butte",1,NA
-22,"Charles Mix",1,NA
-22,"Clark",1,NA
-22,"Clay",3,NA
-22,"Codington",5,NA
-22,"Davison",2,NA
-22,"Deuel",1,NA
-22,"Fall River",1,NA
-22,"Faulk",1,NA
-22,"Hamlin",1,NA
-22,"Hughes",1,NA
-22,"Hutchinson",2,NA
-22,"Lawrence",5,NA
-22,"Lincoln",4,NA
-22,"Lyman",1,NA
-22,"Marshall",1,NA
-22,"McCook",2,NA
-22,"Meade",1,NA
-22,"Minnehaha",28,NA
-22,"Pennington",5,NA
-22,"Roberts",1,NA
-22,"Todd",1,NA
-22,"Turner",1,NA
-22,"Union",1,NA
-22,"Yankton",4,NA
-23,"Aurora",1,NA
-23,"Beadle",20,NA
-23,"Bon Homme",1,NA
-23,"Brookings",1,NA
-23,"Brown",3,NA
-23,"Charles Mix",1,NA
-23,"Clark",1,NA
-23,"Clay",3,NA
-23,"Codington",5,NA
-23,"Davison",2,NA
-23,"Deuel",1,NA
-23,"Fall River",1,NA
-23,"Faulk",1,NA
-23,"Hamlin",1,NA
-23,"Hughes",1,NA
-23,"Hutchinson",2,NA
-23,"Kingsbury",1,NA
-23,"Lawrence",6,NA
-23,"Lincoln",5,NA
-23,"Lyman",1,NA
-23,"Marshall",1,NA
-23,"McCook",2,NA
-23,"Meade",1,NA
-23,"Minnehaha",31,NA
-23,"Pennington",5,NA
-23,"Roberts",1,NA
-23,"Todd",1,NA
-23,"Turner",1,NA
-23,"Union",1,NA
-23,"Yankton",6,NA
-24,"Aurora",1,1
-24,"Beadle",21,12
-24,"Bon Homme",1,1
-24,"Brookings",2,2
-24,"Brown",4,2
-24,"Charles Mix",1,1
-24,"Clark",1,1
-24,"Clay",3,1
-24,"Codington",5,2
-24,"Davison",2,2
-24,"Deuel",1,0
-24,"Fall River",1,1
-24,"Faulk",1,1
-24,"Hamlin",1,0
-24,"Hughes",2,1
-24,"Hutchinson",2,2
-24,"Lawrence",6,2
-24,"Lincoln",11,1
-24,"Lyman",1,1
-24,"Marshall",1,1
-24,"McCook",2,1
-24,"Meade",1,1
-24,"Minnehaha",40,11
-24,"Pennington",5,1
-24,"Roberts",2,0
-24,"Todd",1,0
-24,"Turner",1,0
-24,"Union",1,1
-24,"Yankton",8,1
-25,"Aurora",1,1
-25,"Beadle",21,17
-25,"Bon Homme",1,1
-25,"Brookings",2,2
-25,"Brown",7,4
-25,"Charles Mix",1,1
-25,"Clark",1,1
-25,"Clay",3,2
-25,"Codington",8,3
-25,"Davison",3,2
-25,"Deuel",1,0
-25,"Fall River",1,1
-25,"Faulk",1,1
-25,"Hamlin",1,0
-25,"Hughes",3,2
-25,"Hutchinson",2,2
-25,"Lake",1,0
-25,"Lawrence",9,3
-25,"Lincoln",19,3
-25,"Lyman",1,1
-25,"Marshall",1,1
-25,"McCook",2,1
-25,"Meade",1,1
-25,"Minnehaha",68,15
-25,"Pennington",6,1
-25,"Roberts",3,0
-25,"Spink",1,0
-25,"Todd",1,0
-25,"Turner",3,0
-25,"Union",3,1
-25,"Yankton",11,2
-26,"Aurora",1,1
-26,"Beadle",21,18
-26,"Bon Homme",1,1
-26,"Brookings",3,2
-26,"Brown",9,5
-26,"Charles Mix",2,1
-26,"Clark",1,1
-26,"Clay",3,2
-26,"Codington",9,3
-26,"Davison",3,2
-26,"Deuel",1,0
-26,"Fall River",1,1
-26,"Faulk",1,1
-26,"Hamlin",1,0
-26,"Hughes",3,2
-26,"Hutchinson",2,2
-26,"Lake",1,0
-26,"Lawrence",9,4
-26,"Lincoln",21,4
-26,"Lyman",1,1
-26,"Marshall",1,1
-26,"McCook",2,1
-26,"Meade",1,1
-26,"Minnehaha",81,15
-26,"Pennington",6,1
-26,"Roberts",4,0
-26,"Spink",2,0
-26,"Todd",1,0
-26,"Turner",3,1
-26,"Union",3,1
-26,"Yankton",14,4
-27,"Aurora",1,1
-27,"Beadle",21,18
-27,"Bon Homme",1,1
-27,"Brookings",3,2
-27,"Brown",9,5
-27,"Charles Mix",2,1
-27,"Clark",1,1
-27,"Clay",3,2
-27,"Codington",10,4
-27,"Davison",3,2
-27,"Deuel",1,0
-27,"Fall River",1,1
-27,"Faulk",1,1
-27,"Hamlin",1,0
-27,"Hughes",3,2
-27,"Hutchinson",2,2
-27,"Lake",1,0
-27,"Lawrence",9,5
-27,"Lincoln",23,4
-27,"Lyman",1,1
-27,"Marshall",1,1
-27,"McCook",2,1
-27,"Meade",1,1
-27,"Minnehaha",104,18
-27,"Pennington",6,2
-27,"Roberts",4,0
-27,"Spink",3,1
-27,"Todd",1,0
-27,"Turner",4,1
-27,"Union",3,1
-27,"Yankton",14,5
-28,"Aurora",1,1
-28,"Beadle",21,18
-28,"Bon Homme",2,1
-28,"Brookings",4,2
-28,"Brown",13,5
-28,"Charles Mix",2,1
-28,"Clark",1,1
-28,"Clay",3,2
-28,"Codington",11,4
-28,"Davison",3,2
-28,"Deuel",1,0
-28,"Fall River",1,1
-28,"Faulk",1,1
-28,"Hamlin",1,0
-28,"Hughes",3,2
-28,"Hutchinson",2,2
-28,"Lake",1,0
-28,"Lawrence",9,6
-28,"Lincoln",24,4
-28,"Lyman",1,1
-28,"Marshall",1,1
-28,"McCook",2,1
-28,"Meade",1,1
-28,"Minnehaha",140,23
-28,"Pennington",6,3
-28,"Roberts",4,0
-28,"Spink",3,1
-28,"Todd",1,0
-28,"Turner",4,1
-28,"Union",3,1
-28,"Yankton",18,5
-29,"Aurora",1,1
-29,"Beadle",21,18
-29,"Bon Homme",2,1
-29,"Brookings",6,3
-29,"Brown",13,6
-29,"Charles Mix",2,1
-29,"Clark",1,1
-29,"Clay",6,2
-29,"Codington",12,4
-29,"Davison",3,3
-29,"Deuel",1,0
-29,"Fall River",1,1
-29,"Faulk",1,1
-29,"Hamlin",1,0
-29,"Hughes",3,2
-29,"Hutchinson",2,2
-29,"Lake",1,0
-29,"Lawrence",9,6
-29,"Lincoln",27,4
-29,"Lyman",2,1
-29,"Marshall",1,1
-29,"McCook",2,1
-29,"Meade",1,1
-29,"Minnehaha",165,26
-29,"Pennington",6,3
-29,"Roberts",4,1
-29,"Spink",3,1
-29,"Todd",1,0
-29,"Turner",4,1
-29,"Union",3,1
-29,"Yankton",15,5
-30,"Aurora",1,1
-30,"Beadle",21,19
-30,"Bon Homme",3,1
-30,"Brookings",6,5
-30,"Brown",13,9
-30,"Charles Mix",2,1
-30,"Clark",1,1
-30,"Clay",6,3
-30,"Codington",12,6
-30,"Davison",3,3
-30,"Deuel",1,1
-30,"Fall River",1,1
-30,"Faulk",1,1
-30,"Hamlin",1,0
-30,"Hughes",3,3
-30,"Hutchinson",2,2
-30,"Lake",2,0
-30,"Lawrence",9,8
-30,"Lincoln",31,11
-30,"Lyman",2,1
-30,"Marshall",1,1
-30,"McCook",2,1
-30,"Meade",1,1
-30,"Minnehaha",228,41
-30,"Oglala Lakota",1,0
-30,"Pennington",6,5
-30,"Roberts",4,3
-30,"Spink",3,2
-30,"Todd",1,1
-30,"Turner",5,1
-30,"Union",3,1
-30,"Yankton",17,12
-31,"Aurora",1,1
-31,"Beadle",21,19
-31,"Bon Homme",3,1
-31,"Brookings",6,5
-31,"Brown",14,9
-31,"Charles Mix",2,1
-31,"Clark",1,1
-31,"Clay",6,3
-31,"Codington",12,10
-31,"Corson",1,0
-31,"Davison",3,3
-31,"Deuel",1,1
-31,"Fall River",1,1
-31,"Faulk",1,1
-31,"Hamlin",1,0
-31,"Hughes",4,3
-31,"Hutchinson",2,2
-31,"Jerauld",1,0
-31,"Lake",2,0
-31,"Lawrence",9,8
-31,"Lincoln",33,15
-31,"Lyman",2,1
-31,"Marshall",1,1
-31,"McCook",2,1
-31,"Meade",1,1
-31,"Minnehaha",274,48
-31,"Oglala Lakota",1,0
-31,"Pennington",7,5
-31,"Roberts",4,3
-31,"Spink",3,2
-31,"Todd",1,1
-31,"Turner",5,1
-31,"Union",3,1
-31,"Yankton",18,12
-32,"Aurora",1,1
-32,"Beadle",22,19
-32,"Bon Homme",3,2
-32,"Brookings",7,7
-32,"Brown",14,9
-32,"Charles Mix",3,1
-32,"Clark",1,1
-32,"Clay",6,3
-32,"Codington",12,11
-32,"Corson",1,0
-32,"Davison",3,3
-32,"Deuel",1,1
-32,"Fall River",1,1
-32,"Faulk",1,1
-32,"Hamlin",1,1
-32,"Hughes",4,3
-32,"Hutchinson",2,2
-32,"Jerauld",1,0
-32,"Lake",2,1
-32,"Lawrence",9,8
-32,"Lincoln",38,16
-32,"Lyman",2,1
-32,"Marshall",1,1
-32,"McCook",2,1
-32,"Meade",1,1
-32,"Miner",1,0
-32,"Minnehaha",352,56
-32,"Oglala Lakota",1,0
-32,"Pennington",8,5
-32,"Roberts",4,3
-32,"Spink",3,2
-32,"Todd",1,1
-32,"Turner",5,1
-32,"Union",3,2
-32,"Yankton",19,12
-33,"Aurora",1,1
-33,"Beadle",21,19
-33,"Bon Homme",3,2
-33,"Brookings",6,6
-33,"Brown",14,10
-33,"Charles Mix",3,1
-33,"Clark",1,1
-33,"Clay",6,3
-33,"Codington",12,11
-33,"Corson",1,0
-33,"Davison",3,3
-33,"Deuel",1,1
-33,"Fall River",1,1
-33,"Faulk",1,1
-33,"Hamlin",1,1
-33,"Hughes",4,3
-33,"Hutchinson",2,2
-33,"Jerauld",3,0
-33,"Lake",2,1
-33,"Lawrence",9,8
-33,"Lincoln",39,17
-33,"Lyman",2,2
-33,"Marshall",1,1
-33,"McCook",2,1
-33,"Meade",1,1
-33,"Miner",1,0
-33,"Minnehaha",438,66
-33,"Oglala Lakota",1,0
-33,"Pennington",8,5
-33,"Roberts",4,3
-33,"Sanborn",1,0
-33,"Spink",3,2
-33,"Todd",1,1
-33,"Turner",5,1
-33,"Union",4,2
-33,"Yankton",20,12
-34,"Aurora",1,1
-34,"Beadle",21,19
-34,"Bon Homme",4,3
-34,"Brookings",8,6
-34,"Brown",14,10
-34,"Brule",1,0
-34,"Charles Mix",4,1
-34,"Clark",1,1
-34,"Clay",6,4
-34,"Codington",12,11
-34,"Corson",1,0
-34,"Davison",3,3
-34,"Deuel",1,1
-34,"Fall River",1,1
-34,"Faulk",1,1
-34,"Hamlin",1,1
-34,"Hughes",5,3
-34,"Hutchinson",2,2
-34,"Jerauld",3,0
-34,"Lake",2,1
-34,"Lawrence",9,9
-34,"Lincoln",46,19
-34,"Lyman",2,2
-34,"Marshall",1,1
-34,"McCook",2,1
-34,"Meade",1,1
-34,"Miner",1,0
-34,"Minnehaha",527,69
-34,"Oglala Lakota",1,0
-34,"Pennington",8,5
-34,"Roberts",4,3
-34,"Sanborn",1,0
-34,"Spink",3,2
-34,"Sully",1,0
-34,"Todd",1,1
-34,"Turner",5,1
-34,"Union",4,2
-34,"Walworth",1,0
-34,"Yankton",20,12
-35,"Aurora",1,1
-35,"Beadle",21,19
-35,"Bon Homme",4,3
-35,"Brookings",9,6
-35,"Brown",14,10
-35,"Brule",1,0
-35,"Charles Mix",4,1
-35,"Clark",1,1
-35,"Clay",5,4
-35,"Codington",12,11
-35,"Corson",1,0
-35,"Davison",3,3
-35,"Deuel",1,1
-35,"Fall River",1,1
-35,"Faulk",1,1
-35,"Hamlin",1,1
-35,"Hughes",5,3
-35,"Hutchinson",2,2
-35,"Hyde",1,0
-35,"Jerauld",3,0
-35,"Lake",2,1
-35,"Lawrence",9,9
-35,"Lincoln",50,21
-35,"Lyman",2,2
-35,"Marshall",1,1
-35,"McCook",2,1
-35,"Meade",1,1
-35,"Miner",1,0
-35,"Minnehaha",654,76
-35,"Oglala Lakota",1,0
-35,"Pennington",9,5
-35,"Roberts",4,3
-35,"Sanborn",2,0
-35,"Spink",3,2
-35,"Sully",1,0
-35,"Todd",1,1
-35,"Turner",5,1
-35,"Union",5,2
-35,"Walworth",2,0
-35,"Yankton",22,13
-36,"Aurora",1,1
-36,"Beadle",21,19
-36,"Bon Homme",4,3
-36,"Brookings",9,6
-36,"Brown",14,10
-36,"Brule",1,0
-36,"Charles Mix",4,1
-36,"Clark",1,1
-36,"Clay",5,4
-36,"Codington",13,11
-36,"Corson",1,0
-36,"Davison",3,3
-36,"Deuel",1,1
-36,"Fall River",1,1
-36,"Faulk",1,1
-36,"Hamlin",1,1
-36,"Hughes",5,3
-36,"Hutchinson",2,2
-36,"Hyde",1,0
-36,"Jerauld",3,0
-36,"Lake",2,1
-36,"Lawrence",9,9
-36,"Lincoln",55,27
-36,"Lyman",2,2
-36,"Marshall",1,1
-36,"McCook",2,1
-36,"Meade",1,1
-36,"Miner",1,0
-36,"Minnehaha",768,120
-36,"Oglala Lakota",1,0
-36,"Pennington",9,5
-36,"Roberts",4,3
-36,"Sanborn",2,0
-36,"Spink",3,2
-36,"Sully",1,0
-36,"Todd",1,1
-36,"Turner",5,1
-36,"Union",5,3
-36,"Walworth",2,0
-36,"Yankton",22,16
-37,"Aurora",1,1
-37,"Beadle",21,19
-37,"Bon Homme",4,3
-37,"Brookings",9,6
-37,"Brown",15,10
-37,"Charles Mix",4,2
-37,"Clark",1,1
-37,"Clay",5,4
-37,"Codington",13,11
-37,"Corson",1,1
-37,"Davison",3,3
-37,"Deuel",1,1
-37,"Fall River",1,1
-37,"Faulk",1,1
-37,"Hamlin",1,1
-37,"Hughes",5,4
-37,"Hutchinson",2,2
-37,"Hyde",1,0
-37,"Jerauld",3,2
-37,"Lake",2,1
-37,"Lawrence",9,9
-37,"Lincoln",65,28
-37,"Lyman",2,2
-37,"Marshall",1,1
-37,"McCook",3,1
-37,"Meade",1,1
-37,"Miner",1,0
-37,"Minnehaha",934,179
-37,"Oglala Lakota",1,1
-37,"Pennington",9,6
-37,"Roberts",4,3
-37,"Sanborn",3,0
-37,"Spink",3,2
-37,"Sully",1,0
-37,"Todd",1,1
-37,"Turner",5,1
-37,"Union",4,3
-37,"Walworth",5,0
-37,"Yankton",22,17
-38,"Aurora",1,1
-38,"Beadle",21,19
-38,"Bon Homme",4,3
-38,"Brookings",9,6
-38,"Brown",15,10
-38,"Charles Mix",4,2
-38,"Clark",1,1
-38,"Clay",5,4
-38,"Codington",13,11
-38,"Corson",1,1
-38,"Davison",3,3
-38,"Deuel",1,1
-38,"Fall River",1,1
-38,"Faulk",1,1
-38,"Hamlin",2,1
-38,"Hughes",5,4
-38,"Hutchinson",2,2
-38,"Hyde",1,0
-38,"Jerauld",4,2
-38,"Lake",3,1
-38,"Lawrence",9,9
-38,"Lincoln",71,30
-38,"Lyman",2,2
-38,"Marshall",1,1
-38,"McCook",3,1
-38,"Meade",1,1
-38,"Miner",1,0
-38,"Minnehaha",1065,220
-38,"Moody",1,0
-38,"Oglala Lakota",1,1
-38,"Pennington",10,6
-38,"Roberts",4,3
-38,"Sanborn",3,0
-38,"Spink",3,2
-38,"Sully",1,0
-38,"Todd",1,1
-38,"Turner",5,2
-38,"Union",4,3
-38,"Walworth",5,0
-38,"Yankton",23,17
+"instance_id","county","total_positive_cases","no_recovered","total_cases_recovered"
+6,"Beadle","1",NA,NA
+6,"Bon Homme","1",NA,NA
+6,"Charles Mix","1",NA,NA
+6,"Davison","1",NA,NA
+6,"McCook","1",NA,NA
+6,"Minnehaha","3",NA,NA
+6,"Pennington","1",NA,NA
+7,"Beadle","1",NA,NA
+7,"Bon Homme","1",NA,NA
+7,"Charles Mix","1",NA,NA
+7,"Davison","1",NA,NA
+7,"McCook","1",NA,NA
+7,"Minnehaha","3",NA,NA
+7,"Pennington","1",NA,NA
+8,"Beadle","1",NA,NA
+8,"Bon Homme","1",NA,NA
+8,"Charles Mix","1",NA,NA
+8,"Davison","1",NA,NA
+8,"McCook","1",NA,NA
+8,"Minnehaha","3",NA,NA
+8,"Pennington","1",NA,NA
+9,"Beadle","1",NA,NA
+9,"Bon Homme","1",NA,NA
+9,"Charles Mix","1",NA,NA
+9,"Davison","1",NA,NA
+9,"McCook","1",NA,NA
+9,"Minnehaha","4",NA,NA
+9,"Pennington","1",NA,NA
+10,"Beadle","1",NA,NA
+10,"Bon Homme","1",NA,NA
+10,"Charles Mix","1",NA,NA
+10,"Davison","1",NA,NA
+10,"McCook","1",NA,NA
+10,"Minnehaha","5",NA,NA
+10,"Pennington","1",NA,NA
+11,"Beadle","1",NA,NA
+11,"Bon Homme","1",NA,NA
+11,"Charles Mix","1",NA,NA
+11,"Davison","1",NA,NA
+11,"McCook","1",NA,NA
+11,"Minnehaha","5",NA,NA
+11,"Pennington","1",NA,NA
+12,"Beadle","4",NA,NA
+12,"Bon Homme","1",NA,NA
+12,"Charles Mix","1",NA,NA
+12,"Davison","1",NA,NA
+12,"McCook","1",NA,NA
+12,"Minnehaha","5",NA,NA
+12,"Pennington","1",NA,NA
+13,"Beadle","4",NA,NA
+13,"Bon Homme","1",NA,NA
+13,"Charles Mix","1",NA,NA
+13,"Davison","1",NA,NA
+13,"McCook","1",NA,NA
+13,"Minnehaha","5",NA,NA
+13,"Pennington","1",NA,NA
+14,"Beadle","4",NA,NA
+14,"Bon Homme","1",NA,NA
+14,"Charles Mix","1",NA,NA
+14,"Davison","1",NA,NA
+14,"McCook","1",NA,NA
+14,"Minnehaha","5",NA,NA
+14,"Pennington","1",NA,NA
+15,"Beadle","10",NA,NA
+15,"Bon Homme","1",NA,NA
+15,"Brown","1",NA,NA
+15,"Charles Mix","1",NA,NA
+15,"Davison","1",NA,NA
+15,"McCook","1",NA,NA
+15,"Minnehaha","5",NA,NA
+15,"Pennington","1",NA,NA
+16,"Beadle","12",NA,NA
+16,"Bon Homme","1",NA,NA
+16,"Brown","1",NA,NA
+16,"Charles Mix","1",NA,NA
+16,"Codington","1",NA,NA
+16,"Davison","2",NA,NA
+16,"Hughes","1",NA,NA
+16,"Lyman","1",NA,NA
+16,"McCook","2",NA,NA
+16,"Minnehaha","5",NA,NA
+16,"Pennington","1",NA,NA
+17,"Beadle","13",NA,NA
+17,"Bon Homme","1",NA,NA
+17,"Brown","2",NA,NA
+17,"Brookings","1",NA,NA
+17,"Charles Mix","1",NA,NA
+17,"Codington","1",NA,NA
+17,"Davison","2",NA,NA
+17,"Hughes","1",NA,NA
+17,"Lincoln","1",NA,NA
+17,"Lyman","1",NA,NA
+17,"McCook","2",NA,NA
+17,"Meade","1",NA,NA
+17,"Minnehaha","13",NA,NA
+17,"Pennington","1",NA,NA
+18,"Beadle","14",NA,NA
+18,"Bon Homme","1",NA,NA
+18,"Brown","2",NA,NA
+18,"Brookings","1",NA,NA
+18,"Charles Mix","1",NA,NA
+18,"Codington","1",NA,NA
+18,"Davison","2",NA,NA
+18,"Hughes","1",NA,NA
+18,"Lincoln","2",NA,NA
+18,"Lyman","1",NA,NA
+18,"McCook","2",NA,NA
+18,"Meade","1",NA,NA
+18,"Minnehaha","16",NA,NA
+18,"Pennington","1",NA,NA
+19,"Aurora","1",NA,NA
+19,"Beadle","16",NA,NA
+19,"Bon Homme","1",NA,NA
+19,"Brown","2",NA,NA
+19,"Brookings","1",NA,NA
+19,"Charles Mix","1",NA,NA
+19,"Codington","1",NA,NA
+19,"Davison","2",NA,NA
+19,"Faulk","1",NA,NA
+19,"Hughes","1",NA,NA
+19,"Lawrence","2",NA,NA
+19,"Lincoln","2",NA,NA
+19,"Lyman","1",NA,NA
+19,"McCook","2",NA,NA
+19,"Meade","1",NA,NA
+19,"Minnehaha","18",NA,NA
+19,"Pennington","3",NA,NA
+19,"Todd","1",NA,NA
+19,"Union","1",NA,NA
+20,"Aurora","1",NA,NA
+20,"Beadle","16",NA,NA
+20,"Bon Homme","1",NA,NA
+20,"Brookings","1",NA,NA
+20,"Brown","2",NA,NA
+20,"Charles Mix","1",NA,NA
+20,"Codington","2",NA,NA
+20,"Davison","2",NA,NA
+20,"Deuel","1",NA,NA
+20,"Faulk","1",NA,NA
+20,"Hamlin","1",NA,NA
+20,"Hughes","1",NA,NA
+20,"Hutchinson","2",NA,NA
+20,"Lawrence","2",NA,NA
+20,"Lincoln","3",NA,NA
+20,"Lyman","1",NA,NA
+20,"McCook","2",NA,NA
+20,"Meade","1",NA,NA
+20,"Minnehaha","21",NA,NA
+20,"Pennington","3",NA,NA
+20,"Todd","1",NA,NA
+20,"Union","1",NA,NA
+20,"Yankton","1",NA,NA
+21,"Aurora","1",NA,NA
+21,"Beadle","20",NA,NA
+21,"Bon Homme","1",NA,NA
+21,"Brookings","1",NA,NA
+21,"Brown","2",NA,NA
+21,"Charles Mix","1",NA,NA
+21,"Clark","1",NA,NA
+21,"Clay","2",NA,NA
+21,"Codington","4",NA,NA
+21,"Davison","2",NA,NA
+21,"Deuel","1",NA,NA
+21,"Fall River","1",NA,NA
+21,"Faulk","1",NA,NA
+21,"Hamlin","1",NA,NA
+21,"Hughes","1",NA,NA
+21,"Hutchinson","2",NA,NA
+21,"Lawrence","3",NA,NA
+21,"Lincoln","4",NA,NA
+21,"Lyman","1",NA,NA
+21,"McCook","2",NA,NA
+21,"Meade","1",NA,NA
+21,"Minnehaha","25",NA,NA
+21,"Pennington","4",NA,NA
+21,"Roberts","1",NA,NA
+21,"Todd","1",NA,NA
+21,"Turner","1",NA,NA
+21,"Union","1",NA,NA
+21,"Yankton","4",NA,NA
+22,"Aurora","1",NA,NA
+22,"Beadle","20",NA,NA
+22,"Bon Homme","1",NA,NA
+22,"Brookings","1",NA,NA
+22,"Brown","3",NA,NA
+22,"Butte","1",NA,NA
+22,"Charles Mix","1",NA,NA
+22,"Clark","1",NA,NA
+22,"Clay","3",NA,NA
+22,"Codington","5",NA,NA
+22,"Davison","2",NA,NA
+22,"Deuel","1",NA,NA
+22,"Fall River","1",NA,NA
+22,"Faulk","1",NA,NA
+22,"Hamlin","1",NA,NA
+22,"Hughes","1",NA,NA
+22,"Hutchinson","2",NA,NA
+22,"Lawrence","5",NA,NA
+22,"Lincoln","4",NA,NA
+22,"Lyman","1",NA,NA
+22,"Marshall","1",NA,NA
+22,"McCook","2",NA,NA
+22,"Meade","1",NA,NA
+22,"Minnehaha","28",NA,NA
+22,"Pennington","5",NA,NA
+22,"Roberts","1",NA,NA
+22,"Todd","1",NA,NA
+22,"Turner","1",NA,NA
+22,"Union","1",NA,NA
+22,"Yankton","4",NA,NA
+23,"Aurora","1",NA,NA
+23,"Beadle","20",NA,NA
+23,"Bon Homme","1",NA,NA
+23,"Brookings","1",NA,NA
+23,"Brown","3",NA,NA
+23,"Charles Mix","1",NA,NA
+23,"Clark","1",NA,NA
+23,"Clay","3",NA,NA
+23,"Codington","5",NA,NA
+23,"Davison","2",NA,NA
+23,"Deuel","1",NA,NA
+23,"Fall River","1",NA,NA
+23,"Faulk","1",NA,NA
+23,"Hamlin","1",NA,NA
+23,"Hughes","1",NA,NA
+23,"Hutchinson","2",NA,NA
+23,"Kingsbury","1",NA,NA
+23,"Lawrence","6",NA,NA
+23,"Lincoln","5",NA,NA
+23,"Lyman","1",NA,NA
+23,"Marshall","1",NA,NA
+23,"McCook","2",NA,NA
+23,"Meade","1",NA,NA
+23,"Minnehaha","31",NA,NA
+23,"Pennington","5",NA,NA
+23,"Roberts","1",NA,NA
+23,"Todd","1",NA,NA
+23,"Turner","1",NA,NA
+23,"Union","1",NA,NA
+23,"Yankton","6",NA,NA
+24,"Aurora","1","1",NA
+24,"Beadle","21","12",NA
+24,"Bon Homme","1","1",NA
+24,"Brookings","2","2",NA
+24,"Brown","4","2",NA
+24,"Charles Mix","1","1",NA
+24,"Clark","1","1",NA
+24,"Clay","3","1",NA
+24,"Codington","5","2",NA
+24,"Davison","2","2",NA
+24,"Deuel","1","0",NA
+24,"Fall River","1","1",NA
+24,"Faulk","1","1",NA
+24,"Hamlin","1","0",NA
+24,"Hughes","2","1",NA
+24,"Hutchinson","2","2",NA
+24,"Lawrence","6","2",NA
+24,"Lincoln","11","1",NA
+24,"Lyman","1","1",NA
+24,"Marshall","1","1",NA
+24,"McCook","2","1",NA
+24,"Meade","1","1",NA
+24,"Minnehaha","40","11",NA
+24,"Pennington","5","1",NA
+24,"Roberts","2","0",NA
+24,"Todd","1","0",NA
+24,"Turner","1","0",NA
+24,"Union","1","1",NA
+24,"Yankton","8","1",NA
+25,"Aurora","1","1",NA
+25,"Beadle","21","17",NA
+25,"Bon Homme","1","1",NA
+25,"Brookings","2","2",NA
+25,"Brown","7","4",NA
+25,"Charles Mix","1","1",NA
+25,"Clark","1","1",NA
+25,"Clay","3","2",NA
+25,"Codington","8","3",NA
+25,"Davison","3","2",NA
+25,"Deuel","1","0",NA
+25,"Fall River","1","1",NA
+25,"Faulk","1","1",NA
+25,"Hamlin","1","0",NA
+25,"Hughes","3","2",NA
+25,"Hutchinson","2","2",NA
+25,"Lake","1","0",NA
+25,"Lawrence","9","3",NA
+25,"Lincoln","19","3",NA
+25,"Lyman","1","1",NA
+25,"Marshall","1","1",NA
+25,"McCook","2","1",NA
+25,"Meade","1","1",NA
+25,"Minnehaha","68","15",NA
+25,"Pennington","6","1",NA
+25,"Roberts","3","0",NA
+25,"Spink","1","0",NA
+25,"Todd","1","0",NA
+25,"Turner","3","0",NA
+25,"Union","3","1",NA
+25,"Yankton","11","2",NA
+26,"Aurora","1","1",NA
+26,"Beadle","21","18",NA
+26,"Bon Homme","1","1",NA
+26,"Brookings","3","2",NA
+26,"Brown","9","5",NA
+26,"Charles Mix","2","1",NA
+26,"Clark","1","1",NA
+26,"Clay","3","2",NA
+26,"Codington","9","3",NA
+26,"Davison","3","2",NA
+26,"Deuel","1","0",NA
+26,"Fall River","1","1",NA
+26,"Faulk","1","1",NA
+26,"Hamlin","1","0",NA
+26,"Hughes","3","2",NA
+26,"Hutchinson","2","2",NA
+26,"Lake","1","0",NA
+26,"Lawrence","9","4",NA
+26,"Lincoln","21","4",NA
+26,"Lyman","1","1",NA
+26,"Marshall","1","1",NA
+26,"McCook","2","1",NA
+26,"Meade","1","1",NA
+26,"Minnehaha","81","15",NA
+26,"Pennington","6","1",NA
+26,"Roberts","4","0",NA
+26,"Spink","2","0",NA
+26,"Todd","1","0",NA
+26,"Turner","3","1",NA
+26,"Union","3","1",NA
+26,"Yankton","14","4",NA
+27,"Aurora","1","1",NA
+27,"Beadle","21","18",NA
+27,"Bon Homme","1","1",NA
+27,"Brookings","3","2",NA
+27,"Brown","9","5",NA
+27,"Charles Mix","2","1",NA
+27,"Clark","1","1",NA
+27,"Clay","3","2",NA
+27,"Codington","10","4",NA
+27,"Davison","3","2",NA
+27,"Deuel","1","0",NA
+27,"Fall River","1","1",NA
+27,"Faulk","1","1",NA
+27,"Hamlin","1","0",NA
+27,"Hughes","3","2",NA
+27,"Hutchinson","2","2",NA
+27,"Lake","1","0",NA
+27,"Lawrence","9","5",NA
+27,"Lincoln","23","4",NA
+27,"Lyman","1","1",NA
+27,"Marshall","1","1",NA
+27,"McCook","2","1",NA
+27,"Meade","1","1",NA
+27,"Minnehaha","104","18",NA
+27,"Pennington","6","2",NA
+27,"Roberts","4","0",NA
+27,"Spink","3","1",NA
+27,"Todd","1","0",NA
+27,"Turner","4","1",NA
+27,"Union","3","1",NA
+27,"Yankton","14","5",NA
+28,"Aurora","1","1",NA
+28,"Beadle","21","18",NA
+28,"Bon Homme","2","1",NA
+28,"Brookings","4","2",NA
+28,"Brown","13","5",NA
+28,"Charles Mix","2","1",NA
+28,"Clark","1","1",NA
+28,"Clay","3","2",NA
+28,"Codington","11","4",NA
+28,"Davison","3","2",NA
+28,"Deuel","1","0",NA
+28,"Fall River","1","1",NA
+28,"Faulk","1","1",NA
+28,"Hamlin","1","0",NA
+28,"Hughes","3","2",NA
+28,"Hutchinson","2","2",NA
+28,"Lake","1","0",NA
+28,"Lawrence","9","6",NA
+28,"Lincoln","24","4",NA
+28,"Lyman","1","1",NA
+28,"Marshall","1","1",NA
+28,"McCook","2","1",NA
+28,"Meade","1","1",NA
+28,"Minnehaha","140","23",NA
+28,"Pennington","6","3",NA
+28,"Roberts","4","0",NA
+28,"Spink","3","1",NA
+28,"Todd","1","0",NA
+28,"Turner","4","1",NA
+28,"Union","3","1",NA
+28,"Yankton","18","5",NA
+29,"Aurora","1","1",NA
+29,"Beadle","21","18",NA
+29,"Bon Homme","2","1",NA
+29,"Brookings","6","3",NA
+29,"Brown","13","6",NA
+29,"Charles Mix","2","1",NA
+29,"Clark","1","1",NA
+29,"Clay","6","2",NA
+29,"Codington","12","4",NA
+29,"Davison","3","3",NA
+29,"Deuel","1","0",NA
+29,"Fall River","1","1",NA
+29,"Faulk","1","1",NA
+29,"Hamlin","1","0",NA
+29,"Hughes","3","2",NA
+29,"Hutchinson","2","2",NA
+29,"Lake","1","0",NA
+29,"Lawrence","9","6",NA
+29,"Lincoln","27","4",NA
+29,"Lyman","2","1",NA
+29,"Marshall","1","1",NA
+29,"McCook","2","1",NA
+29,"Meade","1","1",NA
+29,"Minnehaha","165","26",NA
+29,"Pennington","6","3",NA
+29,"Roberts","4","1",NA
+29,"Spink","3","1",NA
+29,"Todd","1","0",NA
+29,"Turner","4","1",NA
+29,"Union","3","1",NA
+29,"Yankton","15","5",NA
+30,"Aurora","1","1",NA
+30,"Beadle","21","19",NA
+30,"Bon Homme","3","1",NA
+30,"Brookings","6","5",NA
+30,"Brown","13","9",NA
+30,"Charles Mix","2","1",NA
+30,"Clark","1","1",NA
+30,"Clay","6","3",NA
+30,"Codington","12","6",NA
+30,"Davison","3","3",NA
+30,"Deuel","1","1",NA
+30,"Fall River","1","1",NA
+30,"Faulk","1","1",NA
+30,"Hamlin","1","0",NA
+30,"Hughes","3","3",NA
+30,"Hutchinson","2","2",NA
+30,"Lake","2","0",NA
+30,"Lawrence","9","8",NA
+30,"Lincoln","31","11",NA
+30,"Lyman","2","1",NA
+30,"Marshall","1","1",NA
+30,"McCook","2","1",NA
+30,"Meade","1","1",NA
+30,"Minnehaha","228","41",NA
+30,"Oglala Lakota","1","0",NA
+30,"Pennington","6","5",NA
+30,"Roberts","4","3",NA
+30,"Spink","3","2",NA
+30,"Todd","1","1",NA
+30,"Turner","5","1",NA
+30,"Union","3","1",NA
+30,"Yankton","17","12",NA
+31,"Aurora","1","1",NA
+31,"Beadle","21","19",NA
+31,"Bon Homme","3","1",NA
+31,"Brookings","6","5",NA
+31,"Brown","14","9",NA
+31,"Charles Mix","2","1",NA
+31,"Clark","1","1",NA
+31,"Clay","6","3",NA
+31,"Codington","12","10",NA
+31,"Corson","1","0",NA
+31,"Davison","3","3",NA
+31,"Deuel","1","1",NA
+31,"Fall River","1","1",NA
+31,"Faulk","1","1",NA
+31,"Hamlin","1","0",NA
+31,"Hughes","4","3",NA
+31,"Hutchinson","2","2",NA
+31,"Jerauld","1","0",NA
+31,"Lake","2","0",NA
+31,"Lawrence","9","8",NA
+31,"Lincoln","33","15",NA
+31,"Lyman","2","1",NA
+31,"Marshall","1","1",NA
+31,"McCook","2","1",NA
+31,"Meade","1","1",NA
+31,"Minnehaha","274","48",NA
+31,"Oglala Lakota","1","0",NA
+31,"Pennington","7","5",NA
+31,"Roberts","4","3",NA
+31,"Spink","3","2",NA
+31,"Todd","1","1",NA
+31,"Turner","5","1",NA
+31,"Union","3","1",NA
+31,"Yankton","18","12",NA
+32,"Aurora","1","1",NA
+32,"Beadle","22","19",NA
+32,"Bon Homme","3","2",NA
+32,"Brookings","7","7",NA
+32,"Brown","14","9",NA
+32,"Charles Mix","3","1",NA
+32,"Clark","1","1",NA
+32,"Clay","6","3",NA
+32,"Codington","12","11",NA
+32,"Corson","1","0",NA
+32,"Davison","3","3",NA
+32,"Deuel","1","1",NA
+32,"Fall River","1","1",NA
+32,"Faulk","1","1",NA
+32,"Hamlin","1","1",NA
+32,"Hughes","4","3",NA
+32,"Hutchinson","2","2",NA
+32,"Jerauld","1","0",NA
+32,"Lake","2","1",NA
+32,"Lawrence","9","8",NA
+32,"Lincoln","38","16",NA
+32,"Lyman","2","1",NA
+32,"Marshall","1","1",NA
+32,"McCook","2","1",NA
+32,"Meade","1","1",NA
+32,"Miner","1","0",NA
+32,"Minnehaha","352","56",NA
+32,"Oglala Lakota","1","0",NA
+32,"Pennington","8","5",NA
+32,"Roberts","4","3",NA
+32,"Spink","3","2",NA
+32,"Todd","1","1",NA
+32,"Turner","5","1",NA
+32,"Union","3","2",NA
+32,"Yankton","19","12",NA
+33,"Aurora","1","1",NA
+33,"Beadle","21","19",NA
+33,"Bon Homme","3","2",NA
+33,"Brookings","6","6",NA
+33,"Brown","14","10",NA
+33,"Charles Mix","3","1",NA
+33,"Clark","1","1",NA
+33,"Clay","6","3",NA
+33,"Codington","12","11",NA
+33,"Corson","1","0",NA
+33,"Davison","3","3",NA
+33,"Deuel","1","1",NA
+33,"Fall River","1","1",NA
+33,"Faulk","1","1",NA
+33,"Hamlin","1","1",NA
+33,"Hughes","4","3",NA
+33,"Hutchinson","2","2",NA
+33,"Jerauld","3","0",NA
+33,"Lake","2","1",NA
+33,"Lawrence","9","8",NA
+33,"Lincoln","39","17",NA
+33,"Lyman","2","2",NA
+33,"Marshall","1","1",NA
+33,"McCook","2","1",NA
+33,"Meade","1","1",NA
+33,"Miner","1","0",NA
+33,"Minnehaha","438","66",NA
+33,"Oglala Lakota","1","0",NA
+33,"Pennington","8","5",NA
+33,"Roberts","4","3",NA
+33,"Sanborn","1","0",NA
+33,"Spink","3","2",NA
+33,"Todd","1","1",NA
+33,"Turner","5","1",NA
+33,"Union","4","2",NA
+33,"Yankton","20","12",NA
+34,"Aurora","1","1",NA
+34,"Beadle","21","19",NA
+34,"Bon Homme","4","3",NA
+34,"Brookings","8","6",NA
+34,"Brown","14","10",NA
+34,"Brule","1","0",NA
+34,"Charles Mix","4","1",NA
+34,"Clark","1","1",NA
+34,"Clay","6","4",NA
+34,"Codington","12","11",NA
+34,"Corson","1","0",NA
+34,"Davison","3","3",NA
+34,"Deuel","1","1",NA
+34,"Fall River","1","1",NA
+34,"Faulk","1","1",NA
+34,"Hamlin","1","1",NA
+34,"Hughes","5","3",NA
+34,"Hutchinson","2","2",NA
+34,"Jerauld","3","0",NA
+34,"Lake","2","1",NA
+34,"Lawrence","9","9",NA
+34,"Lincoln","46","19",NA
+34,"Lyman","2","2",NA
+34,"Marshall","1","1",NA
+34,"McCook","2","1",NA
+34,"Meade","1","1",NA
+34,"Miner","1","0",NA
+34,"Minnehaha","527","69",NA
+34,"Oglala Lakota","1","0",NA
+34,"Pennington","8","5",NA
+34,"Roberts","4","3",NA
+34,"Sanborn","1","0",NA
+34,"Spink","3","2",NA
+34,"Sully","1","0",NA
+34,"Todd","1","1",NA
+34,"Turner","5","1",NA
+34,"Union","4","2",NA
+34,"Walworth","1","0",NA
+34,"Yankton","20","12",NA
+35,"Aurora","1","1",NA
+35,"Beadle","21","19",NA
+35,"Bon Homme","4","3",NA
+35,"Brookings","9","6",NA
+35,"Brown","14","10",NA
+35,"Brule","1","0",NA
+35,"Charles Mix","4","1",NA
+35,"Clark","1","1",NA
+35,"Clay","5","4",NA
+35,"Codington","12","11",NA
+35,"Corson","1","0",NA
+35,"Davison","3","3",NA
+35,"Deuel","1","1",NA
+35,"Fall River","1","1",NA
+35,"Faulk","1","1",NA
+35,"Hamlin","1","1",NA
+35,"Hughes","5","3",NA
+35,"Hutchinson","2","2",NA
+35,"Hyde","1","0",NA
+35,"Jerauld","3","0",NA
+35,"Lake","2","1",NA
+35,"Lawrence","9","9",NA
+35,"Lincoln","50","21",NA
+35,"Lyman","2","2",NA
+35,"Marshall","1","1",NA
+35,"McCook","2","1",NA
+35,"Meade","1","1",NA
+35,"Miner","1","0",NA
+35,"Minnehaha","654","76",NA
+35,"Oglala Lakota","1","0",NA
+35,"Pennington","9","5",NA
+35,"Roberts","4","3",NA
+35,"Sanborn","2","0",NA
+35,"Spink","3","2",NA
+35,"Sully","1","0",NA
+35,"Todd","1","1",NA
+35,"Turner","5","1",NA
+35,"Union","5","2",NA
+35,"Walworth","2","0",NA
+35,"Yankton","22","13",NA
+36,"Aurora","1","1",NA
+36,"Beadle","21","19",NA
+36,"Bon Homme","4","3",NA
+36,"Brookings","9","6",NA
+36,"Brown","14","10",NA
+36,"Brule","1","0",NA
+36,"Charles Mix","4","1",NA
+36,"Clark","1","1",NA
+36,"Clay","5","4",NA
+36,"Codington","13","11",NA
+36,"Corson","1","0",NA
+36,"Davison","3","3",NA
+36,"Deuel","1","1",NA
+36,"Fall River","1","1",NA
+36,"Faulk","1","1",NA
+36,"Hamlin","1","1",NA
+36,"Hughes","5","3",NA
+36,"Hutchinson","2","2",NA
+36,"Hyde","1","0",NA
+36,"Jerauld","3","0",NA
+36,"Lake","2","1",NA
+36,"Lawrence","9","9",NA
+36,"Lincoln","55","27",NA
+36,"Lyman","2","2",NA
+36,"Marshall","1","1",NA
+36,"McCook","2","1",NA
+36,"Meade","1","1",NA
+36,"Miner","1","0",NA
+36,"Minnehaha","768","120",NA
+36,"Oglala Lakota","1","0",NA
+36,"Pennington","9","5",NA
+36,"Roberts","4","3",NA
+36,"Sanborn","2","0",NA
+36,"Spink","3","2",NA
+36,"Sully","1","0",NA
+36,"Todd","1","1",NA
+36,"Turner","5","1",NA
+36,"Union","5","3",NA
+36,"Walworth","2","0",NA
+36,"Yankton","22","16",NA
+37,"Aurora","1","1",NA
+37,"Beadle","21","19",NA
+37,"Bon Homme","4","3",NA
+37,"Brookings","9","6",NA
+37,"Brown","15","10",NA
+37,"Charles Mix","4","2",NA
+37,"Clark","1","1",NA
+37,"Clay","5","4",NA
+37,"Codington","13","11",NA
+37,"Corson","1","1",NA
+37,"Davison","3","3",NA
+37,"Deuel","1","1",NA
+37,"Fall River","1","1",NA
+37,"Faulk","1","1",NA
+37,"Hamlin","1","1",NA
+37,"Hughes","5","4",NA
+37,"Hutchinson","2","2",NA
+37,"Hyde","1","0",NA
+37,"Jerauld","3","2",NA
+37,"Lake","2","1",NA
+37,"Lawrence","9","9",NA
+37,"Lincoln","65","28",NA
+37,"Lyman","2","2",NA
+37,"Marshall","1","1",NA
+37,"McCook","3","1",NA
+37,"Meade","1","1",NA
+37,"Miner","1","0",NA
+37,"Minnehaha","934","179",NA
+37,"Oglala Lakota","1","1",NA
+37,"Pennington","9","6",NA
+37,"Roberts","4","3",NA
+37,"Sanborn","3","0",NA
+37,"Spink","3","2",NA
+37,"Sully","1","0",NA
+37,"Todd","1","1",NA
+37,"Turner","5","1",NA
+37,"Union","4","3",NA
+37,"Walworth","5","0",NA
+37,"Yankton","22","17",NA
+38,"Aurora","1","1",NA
+38,"Beadle","21","19",NA
+38,"Bon Homme","4","3",NA
+38,"Brookings","9","6",NA
+38,"Brown","15","10",NA
+38,"Charles Mix","4","2",NA
+38,"Clark","1","1",NA
+38,"Clay","5","4",NA
+38,"Codington","13","11",NA
+38,"Corson","1","1",NA
+38,"Davison","3","3",NA
+38,"Deuel","1","1",NA
+38,"Fall River","1","1",NA
+38,"Faulk","1","1",NA
+38,"Hamlin","2","1",NA
+38,"Hughes","5","4",NA
+38,"Hutchinson","2","2",NA
+38,"Hyde","1","0",NA
+38,"Jerauld","4","2",NA
+38,"Lake","3","1",NA
+38,"Lawrence","9","9",NA
+38,"Lincoln","71","30",NA
+38,"Lyman","2","2",NA
+38,"Marshall","1","1",NA
+38,"McCook","3","1",NA
+38,"Meade","1","1",NA
+38,"Miner","1","0",NA
+38,"Minnehaha","1065","220",NA
+38,"Moody","1","0",NA
+38,"Oglala Lakota","1","1",NA
+38,"Pennington","10","6",NA
+38,"Roberts","4","3",NA
+38,"Sanborn","3","0",NA
+38,"Spink","3","2",NA
+38,"Sully","1","0",NA
+38,"Todd","1","1",NA
+38,"Turner","5","2",NA
+38,"Union","4","3",NA
+38,"Walworth","5","0",NA
+38,"Yankton","23","17",NA
+40,"Aurora","1","33","1"
+40,"Beadle","21","161","19"
+40,"Bennett","0","10","0"
+40,"Bon Homme","4","88","3"
+40,"Brookings","9","271","9"
+40,"Brown","20","401","11"
+40,"Brule","0","36","0"
+40,"Buffalo","0","7","0"
+40,"Butte","0","13","0"
+40,"Campbell","0","7","0"
+40,"Charles Mix","4","62","3"
+40,"Clark","1","44","1"
+40,"Clay","5","102","4"
+40,"Codington","13","372","12"
+40,"Corson","1","7","1"
+40,"Custer","0","13","0"
+40,"Davison","3","246","3"
+40,"Day","0","43","0"
+40,"Deuel","1","59","1"
+40,"Dewey","0","20","0"
+40,"Douglas","0","21","0"
+40,"Edmunds","0","18","0"
+40,"Fall River","1","10","1"
+40,"Faulk","1","14","1"
+40,"Grant","0","30","0"
+40,"Gregory","0","28","0"
+40,"Haakon","0","10","0"
+40,"Hamlin","2","49","1"
+40,"Hand","0","18","0"
+40,"Hanson","0","18","0"
+40,"Harding","0","1","0"
+40,"Hughes","5","199","4"
+40,"Hutchinson","2","69","2"
+40,"Hyde","1","7","1"
+40,"Jackson","0","3","0"
+40,"Jerauld","4","24","4"
+40,"Jones","0","4","0"
+40,"Kingsbury","0","55","0"
+40,"Lake","3","86","2"
+40,"Lawrence","9","60","9"
+40,"Lincoln","95","1006","48"
+40,"Lyman","2","17","2"
+40,"Marshall","1","33","1"
+40,"McCook","3","77","2"
+40,"McPherson","0","11","0"
+40,"Meade","1","54","1"
+40,"Mellette","0","11","0"
+40,"Miner","1","16","0"
+40,"Minnehaha","1405","4317","514"
+40,"Moody","1","69","0"
+40,"Oglala Lakota","1","21","1"
+40,"Pennington","11","332","7"
+40,"Perkins","0","0","0"
+40,"Potter","0","27","0"
+40,"Roberts","4","75","4"
+40,"Sanborn","3","31","2"
+40,"Spink","3","78","2"
+40,"Stanley","0","29","0"
+40,"Sully","1","12","1"
+40,"Todd","1","32","1"
+40,"Tripp","0","49","0"
+40,"Turner","6","110","3"
+40,"Union","7","99","3"
+40,"Walworth","5","24","4"
+40,"Yankton","23","358","20"
+40,"Ziebach","0","3","0"
+40,"Unassigned*","0","1031","0"
